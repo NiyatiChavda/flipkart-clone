@@ -1,0 +1,410 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.plus-color {
+    color: yellow;
+    font-weight: 900;
+}
+
+.logo p {
+    color: white;
+    position: relative;
+    top: -5px;
+}
+
+.search {
+    background-color: white;
+    padding: 8px 10px;
+    width: 420px;
+    height: 20px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px 7px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search input {
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.loginbtn {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+    cursor: pointer;
+}
+
+.Navlink {
+    margin: 0px 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.angledownicon i {
+    font-size: 10px;
+}
+
+
+
+.Reacemtsearch {
+    display: none;
+    position: absolute;
+    top: 49px;
+    background-color: white;
+    width: 420px;
+    padding: 8px 10px;
+    margin: -10px;
+    height: 350px;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.2),
+        5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #ccc;
+    z-index: 20;
+}
+
+.Recentsearch_list {
+    font-size: 16px;
+    display: flex;
+    color: rgb(95, 94, 94);
+}
+
+.Recentsearch_list p {
+    padding-left: 15px;
+    color: rgb(24, 22, 22);
+}
+
+.discovermore {
+    margin: 15px 0px;
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+}
+
+.Recentsearch_list_discover {
+    padding: 10px 0px;
+    display: flex;
+}
+
+.Recentsearch_list_discover p {
+    padding-left: 15px;
+    color: rgb(24, 22, 22);
+}
+
+.Recentsearch_list_discover i {
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+}
+
+.search:focus-within .Reacemtsearch {
+    display: block;
+}
+
+
+
+
+
+.Hoverlogin {
+    position: absolute;
+    top: 61x;
+    height: 350px;
+    width: 230px;
+    margin-left: -100px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.2),
+        5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    font-weight: 500;
+    color: black;
+    display: none;
+    z-index: 20;
+}
+
+.triangle-up {
+    position: relative;
+    height: o;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid white;
+    top: -12px;
+}
+
+.Newuser {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.Newuser a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.Newuser a:hover {
+    text-decoration: underline;
+
+}
+
+.loginmenu {
+    width: 230px;
+    margin-top: 25px;
+}
+
+.menulist {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.menulist p {
+    padding-left: 20px;
+}
+
+.menulist i {
+    color: #2874f0;
+}
+
+.loginbtn:hover .Hoverlogin {
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+
+.angledownicon:hover .moreicon {
+    transition: 0.5s;
+    transform: rotate(-180deg);
+}
+
+.Moreoptiondisplay_Container {
+    position: relative;
+    height: 1px;
+    display: none;
+}
+
+.Moreoption_content {
+    position: absolute;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: -110px;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.2),
+        5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.Moreoption {
+    display: flex;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Moreoption i {
+    font-size: 15px;
+    color: #2874f0;
+}
+
+.Moreoption p {
+    padding-left: 15px;
+}
+
+.angledownicon:hover .Moreoptiondisplay_Container {
+    display: block;
+    z-index: 20;
+}
+
+
+
+
+.topproductNavbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+
+}
+
+.topproductNavbar_Nav {
+    height: 100px;
+    width: 80px;
+    cursor: pointer;
+    flex: 1px;
+}
+
+.topproductNavbar_Nav img {
+    width: 64px;
+    height: 64px;
+}
+
+.topproductNavbar_Nav p {
+    font-weight: 510;
+}
+
+.topproductNavbar_Nav:hover p {
+    color: #2874f0;
+}
+
+
+
+
+
+
+.slider {
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.sliderImg {
+    width: 100%;
+    padding-right: 20px;
+    height: 250px;
+    animation: 15s sliderimages infinite;
+}
+
+.Slider_image {
+    display: flex;
+    padding: 0px 10px;
+
+}
+
+.btn-container {
+    margin: auto;
+    width: 10px;
+}
+
+.btn {
+    padding: 35px 15px;
+    background-color: #ccc;
+    font-size: 30px;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-left {
+    position: relative;
+    z-index: 5;
+}
+
+.btn-right {
+    position: relative;
+    left: -35px;
+
+}
+
+
+
+
+@keyframes sliderimages {
+
+    0%,
+    1%,
+    2%,
+    3%,
+    4%,
+    5%,
+    6%,
+    7%,
+    8%,
+    9%,
+    10% {
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    40% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-300%);
+    }
+
+    80% {
+        transform: translateX(-400%);
+    }
+
+    95% {
+        transform: translateX(-500%);
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
